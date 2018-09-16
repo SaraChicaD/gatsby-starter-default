@@ -103,7 +103,7 @@ export default () => (
         avatar="https://octodex.github.com/images/octocat-de-los-muertos.jpg"
         front_text="Twitter"
         back_text="I've written code, some of it open source."
-        link="/github/"/>
+        link="https://github.com/SaraChicaD/"/>
         <Flipper
         username="Contact"
         avatar="https://instagram.fmkc1-1.fna.fbcdn.net/vp/479ad46223506ba5bcb9a45fbee87577/5C3A0677/t51.2885-15/e35/22277953_179597432611264_2428521779292012544_n.jpg"
