@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import styled from "styled-components"
 import ReactDOM from 'react-dom'
 import '../layouts/index.css'
@@ -17,6 +17,10 @@ const Content = styled.p`
   padding-top: 30px;
 `;
 
+const Italic = styled.p`
+  padding-top: 30px;
+  font-style: italic;
+`;
 
 const WomenWhoCode = () => (
   <div>
@@ -25,12 +29,15 @@ const WomenWhoCode = () => (
         <h1>Women Who Code</h1>
       </Banner>
       <Content>
-        Diversity and inclusion in tech is important to me, and to building good products. I've worked with Women Who Code in Austin since 2015 and currently serve on the Women Who Code board. Image via <Link
-            to="https://www.flickr.com/photos/wocintechchat/"
-            style={{
-              color: '#000000',
-            }}
-          >WOCinTechChat.</Link>
+        Diversity and inclusion in tech is important to me, and to building good products. I've worked with Women Who Code in Austin since 2015 and currently serve on the Women Who Code board.
+          <Italic>
+            Image via <Link
+                to="https://www.flickr.com/photos/wocintechchat/"
+                style={{
+                  color: '#000000',
+                }}
+              >WOCinTechChat.</Link>
+          </Italic>
       </Content>
     </Container>
   </div>

@@ -1,8 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from "styled-components"
-import ReactDOM from 'react-dom'
-import '../layouts/index.css'
+import React from 'react';
+import styled from 'styled-components';
+import ReactDOM from 'react-dom';
+import '../layouts/index.css';
 
 const Banner = styled.div`
     background-image: url('https://instagram.fmkc1-1.fna.fbcdn.net/vp/701a149670b7b970cc1a23a913309d32/5C1D11DD/t51.2885-15/e35/39744954_2166224113638619_6891290484019298304_n.jpg');
@@ -29,6 +28,6 @@ const AboutPage = () => (
       </Content>
     </Container>
   </div>
-)
+);
 
-export default AboutPage
+export default AboutPage;

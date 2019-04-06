@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from "styled-components"
 import ReactDOM from 'react-dom'
 import '../layouts/index.css'
@@ -25,20 +24,16 @@ const ContactPage = () => (
         <h1>Contact</h1>
       </Banner>
       <Content>
-        I love meeting new folks, feel free to reach out on <Link
-            to="https://twitter.com/SaraChicaD"
-            style={{
-              color: '#000000',
-            }}
-          >Twitter</Link> or <Link
-            to="https://www.linkedin.com/in/sarainescalderon/"
-            style={{
-              color: '#000000',
-            }}
-          >LinkedIn.</Link>
+        I love meeting new folks, feel free to reach out on &nbsp;
+        <a href="https://twitter.com/SaraChicaD">
+          Twitter
+        </a> or &nbsp;
+        <a href="https://www.linkedin.com/in/sarainescalderon/">
+          LinkedIn
+        </a>.
       </Content>
     </Container>
   </div>
-)
+);
 
 export default ContactPage

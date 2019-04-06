@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import styled from "styled-components"
 import ReactDOM from 'react-dom'
 import '../layouts/index.css'
@@ -42,6 +42,15 @@ const Intro = styled.p`
   padding-top: 30px;
 `;
 
+const Italic = styled.p`
+  padding-top: 30px;
+  font-style: italic;
+`;
+
+const White = styled.h1`
+  font-color: '#000000',
+`;
+
 const Information = props => (
   <ArticleWrapper>
     <Description>
@@ -54,19 +63,19 @@ const Information = props => (
 export default () => (
   <Container className="container">
     <Banner className="page-banner">
-      <h1>Freelance</h1>
+      <White>Freelance</White>
     </Banner>
     <Intro>
-      I do freelance web and mobile development, as well as writing and editing. Image via <Link
+      I do freelance web and mobile development, as well as writing and editing.
+
+      <Italic>
+        Image via <Link
             to="https://www.flickr.com/photos/wocintechchat/"
             style={{
               color: '#000000',
             }}
           >WOCinTechChat.</Link>
+      </Italic>
     </Intro>
-    <Information
-      title="Tech Inclusion in Austin"
-      link="https://motherboard.vice.com/en_us/article/qkv5xq/can-learning-to-code-delay-alzheimers"
-      excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
-  </Container>
+   </Container>
 );
