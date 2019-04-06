@@ -22,7 +22,7 @@ const WomenWhoCode = () => (
   <div>
     <Container className="container">
       <Banner className="page-banner">
-        <h1>Women Who Code & Anita Borg</h1>
+        <h1>Women Who Code</h1>
       </Banner>
       <Content>
         Diversity and inclusion in tech is important to me, and to building good products. I've worked with Women Who Code in Austin since 2015 and currently serve on the Women Who Code board. Image via <Link

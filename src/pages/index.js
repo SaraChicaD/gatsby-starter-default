@@ -3,6 +3,9 @@ import Link from 'gatsby-link'
 import styled from "styled-components"
 import ReactDOM from 'react-dom'
 import '../layouts/index.css'
+import profilepic from "../images/profilepic.jpg";
+import indeedpic from "../images/IndeedGH-7580.jpg";
+import ingeniera from "../images/ingeniera.jpg";
 
 const FlipSection = styled.div`
 
@@ -58,7 +61,7 @@ export default () => (
     <row>
       <Flipper
         username="About"
-        avatar="https://instagram.fmkc1-1.fna.fbcdn.net/vp/701a149670b7b970cc1a23a913309d32/5C1D11DD/t51.2885-15/e35/39744954_2166224113638619_6891290484019298304_n.jpg"
+        avatar={profilepic}
         front_text="Twitter"
         back_text="Who is this Sara Inés person?"
         link="/about/"/>           
@@ -69,7 +72,7 @@ export default () => (
         back_text="I'm often on Twitter sharing things."
         link="https://twitter.com/sarachicad"/>
       <Flipper
-        username="Women Who Code & Anita Borg"
+        username="Women Who Code"
         avatar="https://c1.staticflickr.com/6/5696/22344392878_eff85b5527_c.jpg"
         front_text="Twitter"
         back_text="Check out my work in diversity and inclusion."
@@ -88,7 +91,7 @@ export default () => (
         link="https://medium.com/@SaraChicaD"/>
       <Flipper
         username="LinkedIn"
-        avatar="https://instagram.fmkc1-1.fna.fbcdn.net/vp/767326e48f983b35389f73eae90f590a/5C2FA677/t51.2885-15/e35/36854388_268296100420437_5474248187428470784_n.jpg"
+        avatar={indeedpic}
         front_text="Twitter"
         back_text="All the professional stuff."
         link="https://www.linkedin.com/in/sarainescalderon"/>      
@@ -106,7 +109,7 @@ export default () => (
         link="https://github.com/SaraChicaD/"/>
         <Flipper
         username="Contact"
-        avatar="https://instagram.fmkc1-1.fna.fbcdn.net/vp/479ad46223506ba5bcb9a45fbee87577/5C3A0677/t51.2885-15/e35/22277953_179597432611264_2428521779292012544_n.jpg"
+        avatar={ingeniera}
         front_text="Twitter"
         back_text="I enjoy meeting new folks!"
         link="/contact/"/>
