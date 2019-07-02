@@ -709,15 +709,27 @@ row {
   padding-top: 100px;
 }
 
-  .container {
-    max-width: 600px;
-    margin: 3rem auto;
-    margin-top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.white-title {
+  color: "white" !important;
+  font-color: "white" !important;
+  font-size: 40.5px;
+}
+
+p.white-title {
+  color: "white" !important;
+  font-color: "white" !important;
+  font-size: 40.5px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 600px) {
   .flip-container, .front, .back, .flipper {

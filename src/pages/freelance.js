@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import styled from "styled-components"
-import ReactDOM from 'react-dom'
 import '../layouts/index.css'
 
 const Container = styled.div`
@@ -25,9 +24,9 @@ const Description = styled.div`
   margin: 0 auto;
 `;
 
-const Title = styled.a`
+// const Title = styled.a`
 
-`;
+// `;
 
 const Excerpt = styled.p`
   margin: 0;
@@ -48,13 +47,14 @@ const Italic = styled.p`
 `;
 
 const White = styled.h1`
-  font-color: '#000000',
+  font-color: '#ffffff';
+  color: '#ffffff';
 `;
 
 const Information = props => (
   <ArticleWrapper>
     <Description>
-      <a href={props.link} target="_blank">{props.title}</a>
+      <a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a>
       <Excerpt>{props.excerpt}</Excerpt>
     </Description>
   </ArticleWrapper>
@@ -63,10 +63,10 @@ const Information = props => (
 export default () => (
   <Container className="container">
     <Banner className="page-banner">
-      <White>Freelance</White>
+      <h1 className="white-title">Tercera & Freelance</h1>
     </Banner>
     <Intro>
-      I do freelance web and mobile development, as well as writing and editing.
+      Through my company Tercera I work on custom websites / web apps, WordPress sites, and mobile apps.
 
       <Italic>
         Image via <Link

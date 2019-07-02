@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import styled from "styled-components"
-import ReactDOM from 'react-dom'
 import '../layouts/index.css'
 
 const Banner = styled.div`

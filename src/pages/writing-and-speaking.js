@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
 import styled from "styled-components"
-import ReactDOM from 'react-dom'
 import '../layouts/index.css'
 
 const Container = styled.div`
@@ -25,9 +23,9 @@ const Description = styled.div`
   margin: 0 auto;
 `;
 
-const Title = styled.a`
+// const Title = styled.a`
 
-`;
+// `;
 
 const Excerpt = styled.p`
   margin: 0;
@@ -45,7 +43,7 @@ const Intro = styled.p`
 const Article = props => (
   <ArticleWrapper>
     <Description>
-      <a href={props.link} target="_blank">{props.title}</a>
+      <a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a>
       <Excerpt>{props.excerpt}</Excerpt>
     </Description>
   </ArticleWrapper>

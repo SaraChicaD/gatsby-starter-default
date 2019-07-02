@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import ReactDOM from 'react-dom';
 import '../layouts/index.css';
 import profilepic from '../images/profilepic.jpg';
 import indeedpic from '../images/IndeedGH-7580.jpg';
@@ -95,10 +94,10 @@ export default () => (
         back_text="All the professional stuff."
         link="https://www.linkedin.com/in/sarainescalderon/"/>
       <Flipper
-        username="Freelance"
+        username="Tercera & Freelance"
         avatar="https://c1.staticflickr.com/2/1594/25772154926_2c3b0dd2cf_n.jpg"
         front_text="Twitter"
-        back_text="I do all the things!"
+        back_text="I work on various apps for clients."
         link="/freelance/"/>
       <Flipper
         username="Github"
