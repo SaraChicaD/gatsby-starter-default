@@ -4,6 +4,7 @@ import '../layouts/index.css';
 import profilepic from '../images/profilepic.jpg';
 import indeedpic from '../images/IndeedGH-7580.jpg';
 import ingeniera from '../images/ingeniera.jpg';
+import headshot from '../images/headshot.jpg';
 
 const FlipSection = styled.div`
 
@@ -89,7 +90,7 @@ export default () => (
         link="https://dev.to/sarachicad"/>
       <Flipper
         username="LinkedIn"
-        avatar={indeedpic}
+        avatar={headshot}
         front_text="LinkedIn"
         back_text="All the professional stuff."
         link="https://www.linkedin.com/in/sarainescalderon/"/>
