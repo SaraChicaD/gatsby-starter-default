@@ -76,17 +76,17 @@ export default () => (
         back_text="Check out my work in diversity and inclusion."
         link="/women-who-code/"/>
       <Flipper
-        username="Writing and Speaking"
+        username="Speaking"
         avatar="https://pbs.twimg.com/media/DiFEm0jUEAEgZo0.jpg:large"
         front_text="Writing and Speaking"
         back_text="I code — but also write and speak."
         link="/writing-and-speaking/"/>      
       <Flipper
-        username="Medium"
+        username="Writing"
         avatar="http://c1.staticflickr.com/2/1853/29647008257_8180f5111f_z.jpg"
-        front_text="Medium"
-        back_text="I write in depth pieces about tech on Medium."
-        link="https://medium.com/@SaraChicaD"/>
+        front_text="Writing"
+        back_text="I write in depth pieces about tech on Dev.to"
+        link="https://dev.to/sarachicad"/>
       <Flipper
         username="LinkedIn"
         avatar={indeedpic}

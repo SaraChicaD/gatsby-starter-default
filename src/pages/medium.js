@@ -24,12 +24,12 @@ const MediumPage = () => (
         <h1>Medium</h1>
       </Banner>
       <Content>
-        I write things on         <Link
-            to="https://medium.com/@SaraChicaD"
+        I write about tech things on <Link
+            to="https://dev.to/sarachicad"
             style={{
               color: '#000000',
             }}
-          >Medium,</Link> check them out here!
+          >Dev.to,</Link> check them out here!
       </Content>
     </Container>
   </div>

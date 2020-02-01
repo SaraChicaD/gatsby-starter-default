@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../layouts/index.css';
+import { Link } from "gatsby"
 
 const Banner = styled.div`
     background-image: url('https://instagram.fmkc1-1.fna.fbcdn.net/vp/701a149670b7b970cc1a23a913309d32/5C1D11DD/t51.2885-15/e35/39744954_2166224113638619_6891290484019298304_n.jpg');
@@ -22,8 +23,14 @@ const AboutPage = () => (
       <Banner className="page-banner">
         <h1>About</h1>
       </Banner>
-      <Content >
-      Sara Inés Calderón is mobile app developer, community leader and writer based in Austin, Texas. In her first career she worked as a newspaper reporter across several cities in Texas, before transitioning to digital media and eventually software. As the lead mobile developer of Austin music startup, musx, Sara Inés most enjoys building a team and collaborating with them to learn, grow and create something special. Her work the past few years with Women Who Code Austin has focused on promoting diversity in technology, including co-founding the Austin Diversity Hackathon, and she currently serves on the Women Who Code Advisory Board. She enjoys yoga, nail art and trying out recipes she finds on Pinterest while waiting for apps to compile.
+      <Content>
+        Hola, I'm Sara Inés Calderón is mobile app developer (iOS & Android via React Native), community leader and writer based in Austin, Texas.
+I work as a lead mobile developer, and have worked on several music-related apps you can download <Link to="http://musx.com/">musx</Link> here, I've also worked on <Link to="https://www.thetriblnetwork.com/">Tribl</Link> and currently work at 
+        <Link to="http://www.artistory.net/"> Artistory</Link>.
+      </Content>
+      <hr />
+      <Content>
+        My favorite part of my job is building supportive and collaborative teams and mentoring folks. My work in Austin with Women Who Code Austin has focused on promoting diversity in technology, including co-founding the Austin Diversity Hackathon. I enjoy learning about fermentation with kombucha & pickling, nail art and learning about native plants and their medicinal properties.
       </Content>
     </Container>
   </div>
